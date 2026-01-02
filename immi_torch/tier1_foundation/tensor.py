@@ -1,16 +1,19 @@
 """
+date:03/01/26     :{dd/mm/yy}
 Module 01: Tensor - The Foundation of Everything
-
-Multidimensional arrays with automatic shape tracking and broadcasting.
 """
 
 # TODO: Implement Tensor class
-# - Arithmetic operations (+, -, *, /, @)
-# - Reshaping and slicing
-# - Broadcasting semantics
-# - Memory layout management
+#======================================================================================
+# - __init__, shape, size, dtype           : Tensor as NumPy wrapper
+# - __add__, __sub__, __mul__, __truediv__ : Operator overloading + broadcasting
+# - matmul()                               : Matrix multiplication with shape validation
+# - reshape(), transpose()                 : Shape manipulation, views vs copies
+# - sum(), mean(), max()                   :Reductions along axes
+#======================================================================================
 
+import numpy as np
 
+#| export
 class Tensor:
-    """A multidimensional array with automatic shape tracking."""
-    pass
+   pass
