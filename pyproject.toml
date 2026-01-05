@@ -48,6 +48,7 @@ include = ["immi_torch*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
+pythonpath = ["."]
 
 [tool.black]
 line-length = 88
