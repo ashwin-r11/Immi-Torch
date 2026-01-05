@@ -73,7 +73,7 @@ Following the [TinyTorch](https://mlsysbook.ai/tinytorch/) curriculum from the M
 
 | # | Module | What it does | Status |
 |---|--------|--------------|--------|
-| 01 | **Tensor** | Data structure - holds all your numbers | 🔨 |
+| 01 | **Tensor** | Data structure - holds all your numbers | ✅pushed jan5 |
 | 02 | **Activations** | Non-linearity - ReLU, Sigmoid, Tanh | ⏳ |
 | 03 | **Layers** | Parameterized transformations | ⏳ |
 | 04 | **Losses** | Measure prediction error | ⏳ |
