@@ -72,40 +72,40 @@ Following the [TinyTorch](https://mlsysbook.ai/tinytorch/) curriculum from the M
 ### 🔵 Tier 1: Foundation (Modules 01-08)
 > *Build the core machinery*
 
-| # | Module | What it does | Status |
-|---|--------|--------------|--------|
-| 01 | **Tensor** | Data structure - holds all your numbers | ✅pushed jan5 |
-| 02 | **Activations** | Non-linearity - ReLU, Sigmoid, Tanh | ⏳ |
-| 03 | **Layers** | Parameterized transformations | ⏳ |
-| 04 | **Losses** | Measure prediction error | ⏳ |
-| 05 | **DataLoader** | Efficient data batching | ⏳ |
-| 06 | **Autograd** | Automatic gradient computation | ⏳ |
-| 07 | **Optimizers** | SGD, Adam, RMSprop | ⏳ |
-| 08 | **Training** | Complete training loop | ⏳ |
+| #   | Module          | What it does                            | Status        |
+| --- | --------------- | --------------------------------------- | ------------- |
+| 01  | **Tensor**      | Data structure - holds all your numbers | ✅pushed jan5  |
+| 02  | **Activations** | Non-linearity - ReLU, Sigmoid, Tanh     | ✅pushed jan29 |
+| 03  | **Layers**      | Parameterized transformations           | ⏳             |
+| 04  | **Losses**      | Measure prediction error                | ⏳             |
+| 05  | **DataLoader**  | Efficient data batching                 | ⏳             |
+| 06  | **Autograd**    | Automatic gradient computation          | ⏳             |
+| 07  | **Optimizers**  | SGD, Adam, RMSprop                      | ⏳             |
+| 08  | **Training**    | Complete training loop                  | ⏳             |
 
 ### 🟣 Tier 2: Architecture (Modules 09-13)
 > *Apply foundation to real problems*
 
-| # | Module | What it does | Track |
-|---|--------|--------------|-------|
-| 09 | **DataLoader+** | Advanced data pipelines | Both |
-| 10 | **CNNs** | Convolutions for images | 👁️ Vision |
-| 11 | **Tokenization** | Text → tokens | 📝 Language |
-| 12 | **Embeddings** | Tokens → vectors | 📝 Language |
-| 13 | **Attention** | Self-attention mechanism | 📝 Language |
-| 14 | **Transformers** | GPT architecture | 📝 Language |
+| #   | Module           | What it does             | Track      |
+| --- | ---------------- | ------------------------ | ---------- |
+| 09  | **DataLoader+**  | Advanced data pipelines  | Both       |
+| 10  | **CNNs**         | Convolutions for images  | 👁️ Vision   |
+| 11  | **Tokenization** | Text → tokens            | 📝 Language |
+| 12  | **Embeddings**   | Tokens → vectors         | 📝 Language |
+| 13  | **Attention**    | Self-attention mechanism | 📝 Language |
+| 14  | **Transformers** | GPT architecture         | 📝 Language |
 
 ### 🟠 Tier 3: Optimization (Modules 14-19)
 > *Make it production-ready*
 
-| # | Module | What it does |
-|---|--------|--------------|
-| 15 | **Profiling** | Find bottlenecks |
-| 16 | **Quantization** | Reduce precision |
-| 17 | **Compression** | Smaller models |
-| 18 | **Memoization** | Cache computations |
-| 19 | **Acceleration** | Hardware optimization |
-| 20 | **Benchmarking** | MLPerf-style metrics |
+| #   | Module           | What it does          |
+| --- | ---------------- | --------------------- |
+| 15  | **Profiling**    | Find bottlenecks      |
+| 16  | **Quantization** | Reduce precision      |
+| 17  | **Compression**  | Smaller models        |
+| 18  | **Memoization**  | Cache computations    |
+| 19  | **Acceleration** | Hardware optimization |
+| 20  | **Benchmarking** | MLPerf-style metrics  |
 
 ---
 
@@ -113,25 +113,25 @@ Following the [TinyTorch](https://mlsysbook.ai/tinytorch/) curriculum from the M
 
 Historical achievements I'll unlock by recreating 70 years of ML evolution:
 
-| Milestone | Year | Achievement | Modules Required |
-|-----------|------|-------------|------------------|
-| 🧠 **Perceptron** | 1957 | First learning algorithm (Rosenblatt) | 01-04 |
-| ⚡ **XOR** | 1969 | MLP solves non-linear problems | 01-08 |
-| ✍️ **MLP** | 1986 | Handwritten digit recognition | 01-08 |
-| 👁️ **CNN** | 1998 | LeNet-5 image classification | 01-09 |
-| 🤖 **Transformer** | 2017 | "Attention Is All You Need" | 01-13 |
-| 🏁 **MLPerf** | 2018 | Production-speed benchmarks | 01-19 |
+| Milestone         | Year | Achievement                           | Modules Required |
+| ----------------- | ---- | ------------------------------------- | ---------------- |
+| 🧠 **Perceptron**  | 1957 | First learning algorithm (Rosenblatt) | 01-04            |
+| ⚡ **XOR**         | 1969 | MLP solves non-linear problems        | 01-08            |
+| ✍️ **MLP**         | 1986 | Handwritten digit recognition         | 01-08            |
+| 👁️ **CNN**         | 1998 | LeNet-5 image classification          | 01-09            |
+| 🤖 **Transformer** | 2017 | "Attention Is All You Need"           | 01-13            |
+| 🏁 **MLPerf**      | 2018 | Production-speed benchmarks           | 01-19            |
 
 ### What I'll Have at Each Checkpoint
 
-| Modules | Outcome | Historical Context |
-|---------|---------|-------------------|
-| 01-04 | Working Perceptron classifier | Rosenblatt 1957 |
-| 01-08 | MLP solving XOR + complete training pipeline | AI Winter breakthrough 1969→1986 |
-| 01-09 | CNN with convolutions and pooling | LeNet-5 (1998) |
-| 01-13 | GPT model with autoregressive generation | "Attention Is All You Need" (2017) |
-| 01-19 | Optimized, quantized, accelerated system | Production ML today |
-| 01-20 | MLPerf-style benchmarking submission | Torch Olympics |
+| Modules | Outcome                                      | Historical Context                 |
+| ------- | -------------------------------------------- | ---------------------------------- |
+| 01-04   | Working Perceptron classifier                | Rosenblatt 1957                    |
+| 01-08   | MLP solving XOR + complete training pipeline | AI Winter breakthrough 1969→1986   |
+| 01-09   | CNN with convolutions and pooling            | LeNet-5 (1998)                     |
+| 01-13   | GPT model with autoregressive generation     | "Attention Is All You Need" (2017) |
+| 01-19   | Optimized, quantized, accelerated system     | Production ML today                |
+| 01-20   | MLPerf-style benchmarking submission         | Torch Olympics                     |
 
 
 ---
