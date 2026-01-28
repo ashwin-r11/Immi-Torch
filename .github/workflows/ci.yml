@@ -24,3 +24,7 @@ jobs:
     - name: Run tensor unit tests
       run: |
         pytest tests/tier1_foundation/test_tensor.py -v
+
+    - name: Run activation unit tests
+      run: |
+        pytest tests/tier1_foundation/test_activations.py -v
