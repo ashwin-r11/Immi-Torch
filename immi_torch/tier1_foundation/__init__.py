@@ -13,7 +13,7 @@ Core machinery for deep learning:
 """
 
 from .tensor import Tensor
-from .activations import ReLU, Sigmoid, Tanh, Softmax
+from .activations import ReLU, Sigmoid, Tanh, Softmax, GELU
 from .layers import Linear, Module
 from .losses import MSELoss, CrossEntropyLoss
 from .data import DataLoader, Dataset
@@ -23,7 +23,7 @@ from .train import Trainer
 
 __all__ = [
     "Tensor",
-    "ReLU", "Sigmoid", "Tanh", "Softmax",
+    "ReLU", "Sigmoid", "Tanh", "Softmax", "GELU",
     "Linear", "Module",
     "MSELoss", "CrossEntropyLoss",
     "DataLoader", "Dataset",
